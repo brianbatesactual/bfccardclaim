@@ -645,7 +645,7 @@ const Home = (props: HomeProps) => {
             display="block"
             style={{ marginTop: 7, color: "grey" }}
           >
-            Powered by METAPLEX
+            Powered by Me
           </Typography>
         </Paper>
       </Container>
