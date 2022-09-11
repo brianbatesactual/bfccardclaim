@@ -8,6 +8,16 @@ const styles = makeStyles({
         paddingTop: "1.15rem",
         paddingBottom: "1.15rem",
         background: "#000000",
+    },
+    logo: {
+        width: "7%",
+    },
+    menuItem: {
+        cursor: "pointer", 
+        flexGrow: 1,
+        "&:hover": {
+            color:  "#4f25c8"
+        },
     }
 })
 
