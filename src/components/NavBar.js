@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../logo.png'
-import {Toolbar, Typography} from '@material-ui/core'
+import {Toolbar} from '@material-ui/core'
 import {makeStyles} from '@material-ui/core/styles'
 
 const styles = makeStyles({
@@ -34,9 +34,6 @@ export default function NavBar() {
     return (
         <Toolbar position="sticky" className={classes.bar}>   
             <img src={logo} className="App-logo" alt="logo" />
-
-            
-
         </Toolbar>        
     )
 }
