@@ -35,14 +35,7 @@ export default function NavBar() {
         <Toolbar position="sticky" className={classes.bar}>   
             <img src={logo} className="App-logo" alt="logo" />
 
-            {/* <Typography variant="h6" className={classes.menuItem} >
-                    <a
-                    className="App-link"
-                    href="https://app.gitbook.com/invite/jBR7g6Oy7Q9cEdqkWHT1/Yt6TnX8Vtmy1U1Qi0Y5b" target="_blank" rel="noreferrer"
-                    >
-                    Docs
-                    </a>
-                </Typography> */}
+            
 
         </Toolbar>        
     )
