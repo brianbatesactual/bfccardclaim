@@ -70,7 +70,7 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <NavBar/>
+      {/* <NavBar/> */}
       <ConnectionProvider endpoint={endpoint}>
         <WalletProvider wallets={wallets} autoConnect>
           <WalletDialogProvider>
