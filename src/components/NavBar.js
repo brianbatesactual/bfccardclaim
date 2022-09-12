@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './Button'
+import CustomBtn from './CustomBtn'
 import logo from '../logo.png'
 import {Toolbar} from '@material-ui/core'
 import {makeStyles} from '@material-ui/core/styles'
@@ -35,7 +35,7 @@ export default function NavBar() {
     return (
         <Toolbar position="sticky" className={classes.bar}>   
             <img src={logo} className="App-logo" alt="logo" />
-            <Button txt="Home" href="https://bitokufoundersclub.com" target="_blank" rel="noreferrer"/>
+            <CustomBtn txt="Home" href="https://bitokufoundersclub.com" target="_blank" rel="noreferrer"/>
         </Toolbar>
 
         
