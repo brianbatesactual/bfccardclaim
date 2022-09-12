@@ -493,6 +493,7 @@ const Home = (props: HomeProps) => {
           style={{
             padding: 24,
             paddingBottom: 10,
+            // Block background - new image?
             backgroundColor: "#151A1F",
             borderRadius: 6,
           }}
@@ -640,12 +641,13 @@ const Home = (props: HomeProps) => {
             </>
           )}
           <Typography
+          //This is the text below the button - cool effects?
             variant="caption"
             align="center"
             display="block"
             style={{ marginTop: 7, color: "grey" }}
           >
-            Powered by Me
+            Member Mint
           </Typography>
         </Paper>
       </Container>
