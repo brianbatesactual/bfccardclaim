@@ -8,9 +8,15 @@ const styles = makeStyles({
         paddingTop: "1.15rem",
         paddingBottom: "1.15rem",
         background: "#000000",
+        ['@media (max-width:780px)']: { 
+            flexDirection: "column"
+           }
     },
     logo: {
         width: "7%",
+        ['@media (max-width:780px)']: { 
+            display: "none"
+            }
     },
     menuItem: {
         cursor: "pointer", 
@@ -18,6 +24,8 @@ const styles = makeStyles({
         "&:hover": {
             color:  "#4f25c8"
         },
+        ['@media (max-width:780px)']: { 
+            paddingBottom: "1rem"    }
     }
 })
 
