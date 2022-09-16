@@ -35,7 +35,7 @@ export default function NavBar() {
     return (
         <Toolbar position="sticky" className={classes.bar}>   
             <img src={logo} className="App-logo" alt="logo" />
-            <CustomBtn txt="Home" href="https://bitokufoundersclub.com" target="_blank" rel="noreferrer"/>
+            <CustomBtn txt="Link" href="https://bitokufoundersclub.com" target="_blank" rel="noreferrer"/>
         </Toolbar>
 
         
