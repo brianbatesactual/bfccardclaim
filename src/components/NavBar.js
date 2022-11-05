@@ -1,11 +1,15 @@
 import React from 'react'
 import CustomBtn from './CustomBtn'
 import logo from '../logo.png'
+import coin from '../coin.png'
 import {Toolbar} from '@material-ui/core'
 import {makeStyles} from '@material-ui/core/styles'
 
 const styles = makeStyles({
     bar:{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
         paddingTop: "1.15rem",
         paddingBottom: "1.15rem",
         background: "#000000",
@@ -14,7 +18,13 @@ const styles = makeStyles({
            }
     },
     logo: {
-        width: "7%",
+        width: "10%",
+        ['@media (max-width:780px)']: { 
+            display: "none"
+            }
+    },
+    coin: {
+        width: "10%",
         ['@media (max-width:780px)']: { 
             display: "none"
             }
@@ -26,9 +36,6 @@ const styles = makeStyles({
             color:  "#4f25c8"
         },
         ['@media (max-width:780px)']: { 
-            alignItems: "center",
-            paddingTop: "1.15rem",
-            paddingRight: "1.15rem",
             paddingBottom: "1rem"    }
     }
 })
@@ -37,9 +44,9 @@ export default function NavBar() {
     const classes = styles()
     return (
         <Toolbar position="sticky" className={classes.bar}>   
-            <img src={logo} className="App-logo" alt="logo" />
-            <CustomBtn txt="Link" href="https://bitokufoundersclub.com" target="_blank" rel="noreferrer"/>
-            <img src={logo} className="App-logo" alt="logo" />
+            <img src={logo} className={classes.logo} alt="logo" />
+            <CustomBtn txt="Bitoku Founders Club" href="https://bitokufoundersclub.com" target="_blank" rel="noreferrer"/>
+            <img src={logo} className={classes.coin} alt="logo" />
         </Toolbar>
 
         
