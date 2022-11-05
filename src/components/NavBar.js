@@ -7,7 +7,6 @@ import {makeStyles} from '@material-ui/core/styles'
 const styles = makeStyles({
     bar:{
         paddingTop: "1.15rem",
-        paddingRight: "1.15rem",
         paddingBottom: "1.15rem",
         background: "#000000",
         ['@media (max-width:780px)']: { 
@@ -27,6 +26,8 @@ const styles = makeStyles({
             color:  "#4f25c8"
         },
         ['@media (max-width:780px)']: { 
+            paddingTop: "1.15rem",
+            paddingRight: "1.15rem",
             paddingBottom: "1rem"    }
     }
 })
