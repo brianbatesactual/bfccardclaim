@@ -38,6 +38,7 @@ export default function NavBar() {
         <Toolbar position="relative" className={classes.bar}>   
             <img src={logo} className="App-logo" alt="logo" />
             <CustomBtn txt="Link" href="https://bitokufoundersclub.com" target="_blank" rel="noreferrer"/>
+            <img src={logo} className="App-logo" alt="logo" />
         </Toolbar>
 
         
