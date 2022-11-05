@@ -26,6 +26,7 @@ const styles = makeStyles({
             color:  "#4f25c8"
         },
         ['@media (max-width:780px)']: { 
+            alignItems: "center",
             paddingTop: "1.15rem",
             paddingRight: "1.15rem",
             paddingBottom: "1rem"    }
