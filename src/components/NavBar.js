@@ -46,7 +46,7 @@ export default function NavBar() {
         <Toolbar position="sticky" className={classes.bar}>   
             <img src={logo} className={classes.logo} alt="logo" />
             <CustomBtn txt="Bitoku Founders Club" href="https://bitokufoundersclub.com" target="_blank" rel="noreferrer"/>
-            <img src={logo} className={classes.coin} alt="logo" />
+            <img src={logo} className={classes.coin} alt="coin" />
         </Toolbar>
 
         
