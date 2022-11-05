@@ -647,7 +647,7 @@ const Home = (props: HomeProps) => {
             display="block"
             style={{ marginTop: 7, color: "grey" }}
           >
-            Member Mint
+            Bitoku Founders Member Mint
           </Typography>
         </Paper>
       </Container>
