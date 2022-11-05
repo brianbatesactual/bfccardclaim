@@ -35,7 +35,7 @@ const styles = makeStyles({
 export default function NavBar() {
     const classes = styles()
     return (
-        <Toolbar position="relative" className={classes.bar}>   
+        <Toolbar position="sticky" className={classes.bar}>   
             <img src={logo} className="App-logo" alt="logo" />
             <CustomBtn txt="Link" href="https://bitokufoundersclub.com" target="_blank" rel="noreferrer"/>
             <img src={logo} className="App-logo" alt="logo" />
