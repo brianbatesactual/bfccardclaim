@@ -26,8 +26,10 @@ const styles = makeStyles({
     coin: {
         width: "10%",
         ['@media (max-width:780px)']: { 
-            display: "none"
-            }
+            paddingTop: "1.15rem",
+            paddingBottom: "1.15rem",
+            flexDirection: "column"
+           }
     },
     menuItem: {
         cursor: "pointer", 
@@ -44,9 +46,9 @@ export default function NavBar() {
     const classes = styles()
     return (
         <Toolbar position="sticky" className={classes.bar}>   
-            <img src={logo} className={classes.logo} alt="logo" />
-            <CustomBtn txt="Bitoku Founders Club" href="https://bitokufoundersclub.com" target="_blank" rel="noreferrer"/>
             <img src={coin} className={classes.coin} alt="coin" />
+            <CustomBtn txt="Bitoku Founders Club" href="https://bitokufoundersclub.com" target="_blank" rel="noreferrer"/>
+            <img src={logo} className={classes.logo} alt="logo" />
         </Toolbar>
 
         
