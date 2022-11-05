@@ -18,13 +18,13 @@ const styles = makeStyles({
            }
     },
     logo: {
-        width: "10%",
+        width: "200px",
         ['@media (max-width:780px)']: { 
             display: "none"
             }
     },
     coin: {
-        width: "10%",
+        width: "200px",
         ['@media (max-width:780px)']: { 
             paddingTop: "1.15rem",
             paddingBottom: "1.15rem",
