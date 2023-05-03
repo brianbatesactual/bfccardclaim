@@ -1,1 +1,1 @@
-# Metaplex Candy Machine Reference UI
+Bitoku Founders Club NFT Mint UI
